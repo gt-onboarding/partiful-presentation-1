@@ -5,6 +5,8 @@ For pages router, use the [gt-react](https://generaltranslation.com/docs/react).
 
 Translations are completely free to use for this project.
 
+Star the libraries on [GitHub](https://github.com/generaltranslation/gt) to support the project.
+
 ## Getting Started
 
 There are slightly different steps for development and production.
