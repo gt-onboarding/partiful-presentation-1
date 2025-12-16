@@ -9,6 +9,9 @@ Translations are completely free to use for this project.
 
 There are slightly different steps for development and production.
 
+- Development: uses a development API key to enable translation hot-reload
+- Production: uses the `gtx-cli translate` command to generate translations at build time
+
 ### Development
 
 #### 1. Get your API Keys
