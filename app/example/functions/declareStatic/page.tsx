@@ -15,11 +15,9 @@ export default function Page() {
     }
   }
 
-  const result = gt(
-    "The beautiful " + declareStatic(getSubject()) + " go home"
-  );
+  const result = gt("The " + declareStatic(getSubject()) + " goes home");
   // const result = gt(
-  //   "The beautiful {subject, select, masculine {man} feminine {woman} other {person}} go home"
+  //   "The {subject, select, masculine {man} feminine {woman} other {person}} goes home"
   // );
   return (
     <div>

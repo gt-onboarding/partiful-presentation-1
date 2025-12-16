@@ -20,7 +20,7 @@ export default function Page() {
       <div>
         <h1>The Static Component</h1>
         <h2>
-          The beautiful <Static>{getSubject()}</Static> likes ice cream
+          The <Static>{getSubject()}</Static> likes ice cream
         </h2>
         <button
           className="bg-blue-500 text-white px-4 py-2 rounded-md"

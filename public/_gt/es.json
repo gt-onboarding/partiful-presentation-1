@@ -1,1 +1,345 @@
-{}
+{
+  "0acea96caf98a3f7": {
+    "c": [
+      {
+        "c": "El componente Branch",
+        "i": 2,
+        "t": "h1"
+      },
+      {
+        "c": {
+          "d": {
+            "b": {
+              "false": "Alternar es falso",
+              "true": "Alternar es verdadero"
+            },
+            "t": "b"
+          },
+          "i": 4,
+          "t": "Branch"
+        },
+        "i": 3,
+        "t": "h2"
+      },
+      {
+        "c": "Alternar",
+        "i": 5,
+        "t": "button"
+      },
+      {
+        "c": {
+          "d": {
+            "b": {
+              "many": {
+                "c": [
+                  "Hay ",
+                  {
+                    "i": 9,
+                    "k": "_gt_n_9",
+                    "v": "n"
+                  },
+                  " galletas"
+                ],
+                "i": 8,
+                "t": "C8"
+              },
+              "other": {
+                "c": [
+                  "Hay ",
+                  {
+                    "i": 9,
+                    "k": "_gt_n_9",
+                    "v": "n"
+                  },
+                  " galletas"
+                ],
+                "i": 8,
+                "t": "C8"
+              },
+              "plural": {
+                "c": [
+                  "Hay ",
+                  {
+                    "i": 9,
+                    "k": "_gt_n_9",
+                    "v": "n"
+                  },
+                  " galletas"
+                ],
+                "i": 8,
+                "t": "C8"
+              },
+              "singular": {
+                "c": [
+                  "Hay ",
+                  {
+                    "i": 9,
+                    "k": "_gt_n_9",
+                    "v": "n"
+                  },
+                  " galleta"
+                ],
+                "i": 8,
+                "t": "C8"
+              }
+            },
+            "t": "p"
+          },
+          "i": 7,
+          "t": "Plural"
+        },
+        "i": 6,
+        "t": "h2"
+      },
+      {
+        "c": "Incrementar",
+        "i": 8,
+        "t": "button"
+      },
+      {
+        "c": "Disminuir",
+        "i": 9,
+        "t": "button"
+      },
+      {
+        "c": "Restablecer",
+        "i": 10,
+        "t": "button"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "1e75550c04d15e28": {
+    "c": [
+      {
+        "c": "El componente Static",
+        "i": 2,
+        "t": "h1"
+      },
+      {
+        "c": [
+          "Al ",
+          {
+            "c": "hombre",
+            "i": 4,
+            "t": "Static"
+          },
+          " le gusta el helado"
+        ],
+        "i": 3,
+        "t": "h2"
+      },
+      {
+        "c": "Masculino",
+        "i": 5,
+        "t": "button"
+      },
+      {
+        "c": "Femenino",
+        "i": 6,
+        "t": "button"
+      },
+      {
+        "c": "Neutro",
+        "i": 7,
+        "t": "button"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "1f9a545079310ee2": {
+    "c": [
+      {
+        "c": "El componente T",
+        "i": 2,
+        "t": "h1"
+      },
+      {
+        "c": "Este componente se utiliza para traducir texto.",
+        "i": 3,
+        "t": "p"
+      },
+      {
+        "i": 4,
+        "t": "Example1"
+      },
+      {
+        "i": 5,
+        "t": "Example2"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "211fab46eaa2291e": {
+    "c": [
+      {
+        "c": "El componente Var",
+        "i": 2,
+        "t": "h1"
+      },
+      {
+        "c": [
+          "Mi nombre es ",
+          {
+            "i": 4,
+            "k": "_gt_value_4",
+            "v": "v"
+          }
+        ],
+        "i": 3,
+        "t": "h2"
+      },
+      {
+        "c": [
+          {
+            "c": [
+              "Establecer nombre en ",
+              {
+                "i": 7,
+                "k": "_gt_value_7",
+                "v": "v"
+              }
+            ],
+            "i": 6,
+            "t": "button"
+          },
+          {
+            "c": [
+              "Establecer nombre en ",
+              {
+                "i": 9,
+                "k": "_gt_value_9",
+                "v": "v"
+              }
+            ],
+            "i": 8,
+            "t": "button"
+          },
+          {
+            "c": [
+              "Establecer nombre en ",
+              {
+                "i": 11,
+                "k": "_gt_value_11",
+                "v": "v"
+              }
+            ],
+            "i": 10,
+            "t": "button"
+          }
+        ],
+        "i": 5,
+        "t": "div"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "2259560f443b0aca": "¡Hasta luego!",
+  "277d66c6fab586ea": {
+    "c": [
+      {
+        "c": "El componente Static",
+        "i": 2,
+        "t": "h1"
+      },
+      {
+        "c": [
+          "A la ",
+          {
+            "c": "mujer",
+            "i": 4,
+            "t": "Static"
+          },
+          " le gusta el helado"
+        ],
+        "i": 3,
+        "t": "h2"
+      },
+      {
+        "c": "Masculino",
+        "i": 5,
+        "t": "button"
+      },
+      {
+        "c": "Femenino",
+        "i": 6,
+        "t": "button"
+      },
+      {
+        "c": "Neutro",
+        "i": 7,
+        "t": "button"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "3da318389cb48382": {
+    "c": {
+      "c": "Ejemplo 1",
+      "i": 2,
+      "t": "h2"
+    },
+    "i": 1,
+    "t": "div"
+  },
+  "3fde45e3d2ef537e": {
+    "c": {
+      "c": "Ejemplo 2",
+      "i": 2,
+      "t": "h2"
+    },
+    "i": 1,
+    "t": "div"
+  },
+  "4ffa7ca4cb97cfd5": "El hombre va a casa",
+  "749f8a8708344f25": "¡Adiós, mundo!",
+  "75e30e8b0f01acbe": "Traduce esta cadena",
+  "8042e0a3d395c1fb": "¡Hola, mundo!",
+  "c6d22aeb043b9a4e": "La mujer va a casa",
+  "cf227a463823695c": {
+    "c": [
+      {
+        "c": "El componente Static",
+        "i": 2,
+        "t": "h1"
+      },
+      {
+        "c": [
+          "A la ",
+          {
+            "c": "persona",
+            "i": 4,
+            "t": "Static"
+          },
+          " le gusta el helado"
+        ],
+        "i": 3,
+        "t": "h2"
+      },
+      {
+        "c": "Masculino",
+        "i": 5,
+        "t": "button"
+      },
+      {
+        "c": "Femenino",
+        "i": 6,
+        "t": "button"
+      },
+      {
+        "c": "Neutro",
+        "i": 7,
+        "t": "button"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "f33ab723f44b38ac": "La persona va a casa",
+  "fd0a8afb60859515": "¿Cómo estás?"
+}
