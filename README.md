@@ -47,7 +47,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 Get your API Keys from [generaltranslation.com](https://dash.generaltranslation.com).
 
 
-Create a `.env.production` file in the root of the project and add your PRODUCTION API Keys:
+Create a `.env.local` file in the root of the project and add your PRODUCTION API Keys:
 ```
 GT_API_KEY=your-production-api-key
 GT_PROJECT_ID=your-project-id
