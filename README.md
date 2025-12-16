@@ -15,7 +15,7 @@ There are slightly different steps for development and production.
 ### Development
 
 #### 1. Get your API Keys
-Get your API Keys from [generaltranslation.com](https://dash.generaltranslation.com).
+Get your API Keys from [generaltranslation.com](https://dash.generaltranslation.com) from the API Keys page.
 
 
 Create a `.env.local` file in the root of the project and add your DEVELOPMENT API Keys:
@@ -44,7 +44,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ### Production
 
 #### 1. Get your API Keys
-Get your API Keys from [generaltranslation.com](https://dash.generaltranslation.com).
+Get your API Keys from [generaltranslation.com](https://dash.generaltranslation.com) from the API Keys page.
 
 
 Create a `.env.local` file in the root of the project and add your PRODUCTION API Keys:
