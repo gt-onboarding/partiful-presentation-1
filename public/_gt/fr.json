@@ -110,6 +110,45 @@
     "i": 1,
     "t": "div"
   },
+  "0cbfeb37b248bdd4": {
+    "c": [
+      {
+        "c": "Le composant Static",
+        "i": 2,
+        "t": "h1"
+      },
+      {
+        "c": [
+          "La belle ",
+          {
+            "c": "femme",
+            "i": 4,
+            "t": "Static"
+          },
+          " aime la glace "
+        ],
+        "i": 3,
+        "t": "h2"
+      },
+      {
+        "c": "Masculin",
+        "i": 5,
+        "t": "button"
+      },
+      {
+        "c": "Féminin",
+        "i": 6,
+        "t": "button"
+      },
+      {
+        "c": "Neutre",
+        "i": 7,
+        "t": "button"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
   "1e75550c04d15e28": {
     "c": [
       {
@@ -278,6 +317,208 @@
     "i": 1,
     "t": "div"
   },
+  "2c67976540eec22f": "Ce hook est utilisé pour traduire des chaînes de caractères.",
+  "3c50f7abecee26a7": {
+    "c": {
+      "c": [
+        {
+          "c": [
+            {
+              "c": "Démo de présentation Partiful",
+              "i": 4,
+              "t": "h1"
+            },
+            {
+              "c": "Explorez les différents composants et fonctions disponibles dans cette application de présentation",
+              "i": 5,
+              "t": "p"
+            }
+          ],
+          "i": 3,
+          "t": "header"
+        },
+        {
+          "c": [
+            {
+              "c": [
+                {
+                  "c": [
+                    {
+                      "c": "C",
+                      "i": 9,
+                      "t": "span"
+                    },
+                    "Composants"
+                  ],
+                  "i": 8,
+                  "t": "h2"
+                },
+                {
+                  "c": [
+                    {
+                      "c": [
+                        {
+                          "c": "Composant T",
+                          "i": 12,
+                          "t": "h3"
+                        },
+                        {
+                          "c": "Composant de traduction pour l'internationalisation",
+                          "i": 13,
+                          "t": "p"
+                        }
+                      ],
+                      "i": 11,
+                      "t": "a"
+                    },
+                    {
+                      "c": [
+                        {
+                          "c": "Var Component",
+                          "i": 15,
+                          "t": "h3"
+                        },
+                        {
+                          "c": "Composant de substitution de variables",
+                          "i": 16,
+                          "t": "p"
+                        }
+                      ],
+                      "i": 14,
+                      "t": "a"
+                    },
+                    {
+                      "c": [
+                        {
+                          "c": "Branch Component",
+                          "i": 18,
+                          "t": "h3"
+                        },
+                        {
+                          "c": "Composant de rendu conditionnel",
+                          "i": 19,
+                          "t": "p"
+                        }
+                      ],
+                      "i": 17,
+                      "t": "a"
+                    },
+                    {
+                      "c": [
+                        {
+                          "c": "Static Component",
+                          "i": 21,
+                          "t": "h3"
+                        },
+                        {
+                          "c": "Composant de contenu statique",
+                          "i": 22,
+                          "t": "p"
+                        }
+                      ],
+                      "i": 20,
+                      "t": "a"
+                    }
+                  ],
+                  "i": 10,
+                  "t": "div"
+                }
+              ],
+              "i": 7,
+              "t": "section"
+            },
+            {
+              "c": [
+                {
+                  "c": [
+                    {
+                      "c": "F",
+                      "i": 25,
+                      "t": "span"
+                    },
+                    "Fonctions"
+                  ],
+                  "i": 24,
+                  "t": "h2"
+                },
+                {
+                  "c": [
+                    {
+                      "c": [
+                        {
+                          "c": "Hook useGT",
+                          "i": 28,
+                          "t": "h3"
+                        },
+                        {
+                          "c": "Hook de traduction pour la gestion de la localisation",
+                          "i": 29,
+                          "t": "p"
+                        }
+                      ],
+                      "i": 27,
+                      "t": "a"
+                    },
+                    {
+                      "c": [
+                        {
+                          "c": "Hook useMessages",
+                          "i": 31,
+                          "t": "h3"
+                        },
+                        {
+                          "c": "Hook de gestion des messages",
+                          "i": 32,
+                          "t": "p"
+                        }
+                      ],
+                      "i": 30,
+                      "t": "a"
+                    },
+                    {
+                      "c": [
+                        {
+                          "c": "Fonction declareStatic",
+                          "i": 34,
+                          "t": "h3"
+                        },
+                        {
+                          "c": "Fonction utilitaire de déclaration statique",
+                          "i": 35,
+                          "t": "p"
+                        }
+                      ],
+                      "i": 33,
+                      "t": "a"
+                    }
+                  ],
+                  "i": 26,
+                  "t": "div"
+                }
+              ],
+              "i": 23,
+              "t": "section"
+            }
+          ],
+          "i": 6,
+          "t": "div"
+        },
+        {
+          "c": {
+            "c": "Naviguez à travers les différentes sections pour explorer les fonctionnalités",
+            "i": 37,
+            "t": "p"
+          },
+          "i": 36,
+          "t": "footer"
+        }
+      ],
+      "i": 2,
+      "t": "div"
+    },
+    "i": 1,
+    "t": "div"
+  },
   "3da318389cb48382": {
     "c": {
       "c": "Exemple 1",
@@ -296,10 +537,196 @@
     "i": 1,
     "t": "div"
   },
+  "4416546c83efb895": {
+    "c": [
+      {
+        "c": "Le composant Static",
+        "i": 2,
+        "t": "h1"
+      },
+      {
+        "c": [
+          "Le bel ",
+          {
+            "c": "homme",
+            "i": 4,
+            "t": "Static"
+          },
+          " aime la glace "
+        ],
+        "i": 3,
+        "t": "h2"
+      },
+      {
+        "c": "Masculin",
+        "i": 5,
+        "t": "button"
+      },
+      {
+        "c": "Féminin",
+        "i": 6,
+        "t": "button"
+      },
+      {
+        "c": "Neutre",
+        "i": 7,
+        "t": "button"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
   "4ffa7ca4cb97cfd5": "L'homme rentre à la maison",
   "749f8a8708344f25": "Au revoir, le monde !",
   "75e30e8b0f01acbe": "Traduire cette chaîne",
   "8042e0a3d395c1fb": "Bonjour, le monde !",
+  "adfc9e0ed3f4403c": {
+    "c": [
+      {
+        "c": "Le composant Branch",
+        "i": 2,
+        "t": "h1"
+      },
+      {
+        "d": {
+          "b": {
+            "feminine": "La belle femme",
+            "masculine": "Le bel homme",
+            "neutral": "La belle personne"
+          },
+          "t": "b"
+        },
+        "i": 3,
+        "t": "Branch"
+      },
+      {
+        "c": "Basculer",
+        "i": 4,
+        "t": "button"
+      },
+      {
+        "c": {
+          "d": {
+            "b": {
+              "many": {
+                "c": [
+                  "Il y a ",
+                  {
+                    "i": 8,
+                    "k": "_gt_n_8",
+                    "v": "n"
+                  },
+                  " biscuits"
+                ],
+                "i": 7,
+                "t": "span"
+              },
+              "other": {
+                "c": [
+                  "Il y a ",
+                  {
+                    "i": 8,
+                    "k": "_gt_n_8",
+                    "v": "n"
+                  },
+                  " biscuits"
+                ],
+                "i": 7,
+                "t": "span"
+              },
+              "plural": {
+                "c": [
+                  "Il y a ",
+                  {
+                    "i": 8,
+                    "k": "_gt_n_8",
+                    "v": "n"
+                  },
+                  " biscuits"
+                ],
+                "i": 7,
+                "t": "span"
+              },
+              "singular": {
+                "c": [
+                  "Il y a ",
+                  {
+                    "i": 8,
+                    "k": "_gt_n_8",
+                    "v": "n"
+                  },
+                  " biscuit"
+                ],
+                "i": 7,
+                "t": "span"
+              }
+            },
+            "t": "p"
+          },
+          "i": 6,
+          "t": "Plural"
+        },
+        "i": 5,
+        "t": "h2"
+      },
+      {
+        "c": "Augmenter",
+        "i": 7,
+        "t": "button"
+      },
+      {
+        "c": "Diminuer",
+        "i": 8,
+        "t": "button"
+      },
+      {
+        "c": "Réinitialiser",
+        "i": 9,
+        "t": "button"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "b7fe9f40303fb7ac": {
+    "c": [
+      {
+        "c": "Le composant Static",
+        "i": 2,
+        "t": "h1"
+      },
+      {
+        "c": [
+          "La belle ",
+          {
+            "c": "personne",
+            "i": 4,
+            "t": "Static"
+          },
+          " aime la glace "
+        ],
+        "i": 3,
+        "t": "h2"
+      },
+      {
+        "c": "Masculin",
+        "i": 5,
+        "t": "button"
+      },
+      {
+        "c": "Féminin",
+        "i": 6,
+        "t": "button"
+      },
+      {
+        "c": "Neutre",
+        "i": 7,
+        "t": "button"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
   "c6d22aeb043b9a4e": "La femme rentre à la maison",
   "cf227a463823695c": {
     "c": [
@@ -335,6 +762,50 @@
         "c": "Neutre",
         "i": 7,
         "t": "button"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "ea4fe9cc3214b46f": {
+    "c": [
+      {
+        "c": "Le composant Var",
+        "i": 2,
+        "t": "h1"
+      },
+      {
+        "c": [
+          "Je joue avec le ballon au ",
+          {
+            "c": "parc",
+            "i": 4,
+            "t": "b"
+          }
+        ],
+        "i": 3,
+        "t": "h2"
+      },
+      {
+        "c": [
+          {
+            "c": "Définir le nom sur Jane",
+            "i": 6,
+            "t": "button"
+          },
+          {
+            "c": "Définir le nom sur John",
+            "i": 7,
+            "t": "button"
+          },
+          {
+            "c": "Définir le nom sur Shelly",
+            "i": 8,
+            "t": "button"
+          }
+        ],
+        "i": 5,
+        "t": "div"
       }
     ],
     "i": 1,

@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Overview
+
+This is a Next.JS App router project using the [gt-next](https://generaltranslation.com/docs/next) for i18n.
+For pages router, use the [gt-react](https://generaltranslation.com/docs/react).
+
+Translations are completely free to use for this project.
 
 ## Getting Started
 
-First, run the development server:
+There are slightly different steps for development and production.
+
+### Development
+
+#### 1. Get your API Keys
+Get your API Keys from [generaltranslation.com](https://dash.generaltranslation.com).
+
+
+Create a `.env.local` file in the root of the project and add your DEVELOPMENT API Keys:
+```
+GT_DEV_API_KEY=your-development-api-key
+GT_PROJECT_ID=your-project-id
+```
+
+#### 2. Install dependencies
+Install dependencies:
+
+```bash
+npm install
+```
+
+#### 3. Run the development server
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Production
 
-## Learn More
+#### 1. Get your API Keys
+Get your API Keys from [generaltranslation.com](https://dash.generaltranslation.com).
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Create a `.env.production` file in the root of the project and add your PRODUCTION API Keys:
+```
+GT_API_KEY=your-production-api-key
+GT_PROJECT_ID=your-project-id
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+#### 2. Install dependencies
+Install dependencies:
 
-## Deploy on Vercel
+```bash
+npm install
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+#### 3. Run the translate command
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npm run translate
+```
+
+#### 4. Run the development server
+Run the development server:
+
+```bash
+npm run build && npm run start
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.

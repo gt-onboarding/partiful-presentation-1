@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "translate": "npx gtx-cli translate"
   },
   "dependencies": {
     "gt-next": "^6.12.0",

@@ -16,6 +16,20 @@
             "updatedAt": "2025-12-16T01:30:11.178Z",
             "postProcessHash": "47cdbd759a16882ded178b83e0cb70addbf0cf1311d4a568265cb5a854f03151"
           }
+        },
+        "775fccbab94d097958f6322c0b07d63295c5345f4e63cc9a1d31d763d7254417": {
+          "es": {
+            "updatedAt": "2025-12-16T20:29:48.415Z",
+            "postProcessHash": "ec51ad57a65c0d1e0cfd1713628ab6438d2f2865dac85e959de543dca58af7bd"
+          },
+          "fr": {
+            "updatedAt": "2025-12-16T20:29:48.417Z",
+            "postProcessHash": "7cafba48241df7886e1f8326fe18f49abec24974625c9d1f3d4e1d7c81363e66"
+          },
+          "zh": {
+            "updatedAt": "2025-12-16T20:29:48.418Z",
+            "postProcessHash": "c3cadf2e200ac357e589d9996b8b8485b524eaa9ea71e14570e42b9afd41fd53"
+          }
         }
       }
     }

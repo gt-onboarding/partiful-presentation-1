@@ -110,6 +110,45 @@
     "i": 1,
     "t": "div"
   },
+  "0cbfeb37b248bdd4": {
+    "c": [
+      {
+        "c": "El componente Static",
+        "i": 2,
+        "t": "h1"
+      },
+      {
+        "c": [
+          "La hermosa ",
+          {
+            "c": "mujer",
+            "i": 4,
+            "t": "Static"
+          },
+          " le gusta el helado"
+        ],
+        "i": 3,
+        "t": "h2"
+      },
+      {
+        "c": "Masculino",
+        "i": 5,
+        "t": "button"
+      },
+      {
+        "c": "Femenino",
+        "i": 6,
+        "t": "button"
+      },
+      {
+        "c": "Neutro",
+        "i": 7,
+        "t": "button"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
   "1e75550c04d15e28": {
     "c": [
       {
@@ -278,6 +317,208 @@
     "i": 1,
     "t": "div"
   },
+  "2c67976540eec22f": "Este hook se utiliza para traducir cadenas.",
+  "3c50f7abecee26a7": {
+    "c": {
+      "c": [
+        {
+          "c": [
+            {
+              "c": "Demostración de Presentación de Partiful",
+              "i": 4,
+              "t": "h1"
+            },
+            {
+              "c": "Explora los diferentes componentes y funciones disponibles en esta aplicación de presentación",
+              "i": 5,
+              "t": "p"
+            }
+          ],
+          "i": 3,
+          "t": "header"
+        },
+        {
+          "c": [
+            {
+              "c": [
+                {
+                  "c": [
+                    {
+                      "c": "C",
+                      "i": 9,
+                      "t": "span"
+                    },
+                    "Componentes"
+                  ],
+                  "i": 8,
+                  "t": "h2"
+                },
+                {
+                  "c": [
+                    {
+                      "c": [
+                        {
+                          "c": "T Component",
+                          "i": 12,
+                          "t": "h3"
+                        },
+                        {
+                          "c": "Componente de traducción para internacionalización",
+                          "i": 13,
+                          "t": "p"
+                        }
+                      ],
+                      "i": 11,
+                      "t": "a"
+                    },
+                    {
+                      "c": [
+                        {
+                          "c": "Var Component",
+                          "i": 15,
+                          "t": "h3"
+                        },
+                        {
+                          "c": "Componente de sustitución de variables",
+                          "i": 16,
+                          "t": "p"
+                        }
+                      ],
+                      "i": 14,
+                      "t": "a"
+                    },
+                    {
+                      "c": [
+                        {
+                          "c": "Branch Component",
+                          "i": 18,
+                          "t": "h3"
+                        },
+                        {
+                          "c": "Componente de renderizado condicional",
+                          "i": 19,
+                          "t": "p"
+                        }
+                      ],
+                      "i": 17,
+                      "t": "a"
+                    },
+                    {
+                      "c": [
+                        {
+                          "c": "Static Component",
+                          "i": 21,
+                          "t": "h3"
+                        },
+                        {
+                          "c": "Componente de contenido estático",
+                          "i": 22,
+                          "t": "p"
+                        }
+                      ],
+                      "i": 20,
+                      "t": "a"
+                    }
+                  ],
+                  "i": 10,
+                  "t": "div"
+                }
+              ],
+              "i": 7,
+              "t": "section"
+            },
+            {
+              "c": [
+                {
+                  "c": [
+                    {
+                      "c": "F",
+                      "i": 25,
+                      "t": "span"
+                    },
+                    "Funciones"
+                  ],
+                  "i": 24,
+                  "t": "h2"
+                },
+                {
+                  "c": [
+                    {
+                      "c": [
+                        {
+                          "c": "Hook useGT",
+                          "i": 28,
+                          "t": "h3"
+                        },
+                        {
+                          "c": "Hook de traducción para gestionar la localización",
+                          "i": 29,
+                          "t": "p"
+                        }
+                      ],
+                      "i": 27,
+                      "t": "a"
+                    },
+                    {
+                      "c": [
+                        {
+                          "c": "Hook useMessages",
+                          "i": 31,
+                          "t": "h3"
+                        },
+                        {
+                          "c": "Hook de gestión de mensajes",
+                          "i": 32,
+                          "t": "p"
+                        }
+                      ],
+                      "i": 30,
+                      "t": "a"
+                    },
+                    {
+                      "c": [
+                        {
+                          "c": "Función declareStatic",
+                          "i": 34,
+                          "t": "h3"
+                        },
+                        {
+                          "c": "Función de utilidad para declaración estática",
+                          "i": 35,
+                          "t": "p"
+                        }
+                      ],
+                      "i": 33,
+                      "t": "a"
+                    }
+                  ],
+                  "i": 26,
+                  "t": "div"
+                }
+              ],
+              "i": 23,
+              "t": "section"
+            }
+          ],
+          "i": 6,
+          "t": "div"
+        },
+        {
+          "c": {
+            "c": "Navega por las diferentes secciones para explorar la funcionalidad",
+            "i": 37,
+            "t": "p"
+          },
+          "i": 36,
+          "t": "footer"
+        }
+      ],
+      "i": 2,
+      "t": "div"
+    },
+    "i": 1,
+    "t": "div"
+  },
   "3da318389cb48382": {
     "c": {
       "c": "Ejemplo 1",
@@ -296,10 +537,196 @@
     "i": 1,
     "t": "div"
   },
+  "4416546c83efb895": {
+    "c": [
+      {
+        "c": "El componente Static",
+        "i": 2,
+        "t": "h1"
+      },
+      {
+        "c": [
+          "El ",
+          {
+            "c": "hombre",
+            "i": 4,
+            "t": "Static"
+          },
+          " hermoso le gusta el helado "
+        ],
+        "i": 3,
+        "t": "h2"
+      },
+      {
+        "c": "Masculino",
+        "i": 5,
+        "t": "button"
+      },
+      {
+        "c": "Femenino",
+        "i": 6,
+        "t": "button"
+      },
+      {
+        "c": "Neutro",
+        "i": 7,
+        "t": "button"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
   "4ffa7ca4cb97cfd5": "El hombre va a casa",
   "749f8a8708344f25": "¡Adiós, mundo!",
   "75e30e8b0f01acbe": "Traduce esta cadena",
   "8042e0a3d395c1fb": "¡Hola, mundo!",
+  "adfc9e0ed3f4403c": {
+    "c": [
+      {
+        "c": "El componente Branch",
+        "i": 2,
+        "t": "h1"
+      },
+      {
+        "d": {
+          "b": {
+            "feminine": "La mujer hermosa",
+            "masculine": "El hombre hermoso",
+            "neutral": "La persona hermosa"
+          },
+          "t": "b"
+        },
+        "i": 3,
+        "t": "Branch"
+      },
+      {
+        "c": "Alternar",
+        "i": 4,
+        "t": "button"
+      },
+      {
+        "c": {
+          "d": {
+            "b": {
+              "many": {
+                "c": [
+                  "Hay ",
+                  {
+                    "i": 8,
+                    "k": "_gt_n_8",
+                    "v": "n"
+                  },
+                  " galletas"
+                ],
+                "i": 7,
+                "t": "span"
+              },
+              "other": {
+                "c": [
+                  "Hay ",
+                  {
+                    "i": 8,
+                    "k": "_gt_n_8",
+                    "v": "n"
+                  },
+                  " galletas"
+                ],
+                "i": 7,
+                "t": "span"
+              },
+              "plural": {
+                "c": [
+                  "Hay ",
+                  {
+                    "i": 8,
+                    "k": "_gt_n_8",
+                    "v": "n"
+                  },
+                  " galletas"
+                ],
+                "i": 7,
+                "t": "span"
+              },
+              "singular": {
+                "c": [
+                  "Hay ",
+                  {
+                    "i": 8,
+                    "k": "_gt_n_8",
+                    "v": "n"
+                  },
+                  " galleta"
+                ],
+                "i": 7,
+                "t": "span"
+              }
+            },
+            "t": "p"
+          },
+          "i": 6,
+          "t": "Plural"
+        },
+        "i": 5,
+        "t": "h2"
+      },
+      {
+        "c": "Incrementar",
+        "i": 7,
+        "t": "button"
+      },
+      {
+        "c": "Disminuir",
+        "i": 8,
+        "t": "button"
+      },
+      {
+        "c": "Restablecer",
+        "i": 9,
+        "t": "button"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "b7fe9f40303fb7ac": {
+    "c": [
+      {
+        "c": "El componente Static",
+        "i": 2,
+        "t": "h1"
+      },
+      {
+        "c": [
+          "La ",
+          {
+            "c": "persona",
+            "i": 4,
+            "t": "Static"
+          },
+          " hermosa le gusta el helado"
+        ],
+        "i": 3,
+        "t": "h2"
+      },
+      {
+        "c": "Masculino",
+        "i": 5,
+        "t": "button"
+      },
+      {
+        "c": "Femenino",
+        "i": 6,
+        "t": "button"
+      },
+      {
+        "c": "Neutro",
+        "i": 7,
+        "t": "button"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
   "c6d22aeb043b9a4e": "La mujer va a casa",
   "cf227a463823695c": {
     "c": [
@@ -335,6 +762,50 @@
         "c": "Neutro",
         "i": 7,
         "t": "button"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "ea4fe9cc3214b46f": {
+    "c": [
+      {
+        "c": "El componente Var",
+        "i": 2,
+        "t": "h1"
+      },
+      {
+        "c": [
+          "Juego con la pelota en el ",
+          {
+            "c": "parque",
+            "i": 4,
+            "t": "b"
+          }
+        ],
+        "i": 3,
+        "t": "h2"
+      },
+      {
+        "c": [
+          {
+            "c": "Establecer nombre a Jane",
+            "i": 6,
+            "t": "button"
+          },
+          {
+            "c": "Establecer nombre a John",
+            "i": 7,
+            "t": "button"
+          },
+          {
+            "c": "Establecer nombre a Shelly",
+            "i": 8,
+            "t": "button"
+          }
+        ],
+        "i": 5,
+        "t": "div"
       }
     ],
     "i": 1,
