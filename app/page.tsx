@@ -1,4 +1,3 @@
-
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-8">
@@ -8,7 +7,8 @@ export default function Home() {
             Partiful Presentation Demo
           </h1>
           <p className="text-lg text-gray-600">
-            Explore the different components and functions available in this presentation app
+            Explore the different components and functions available in this
+            presentation app
           </p>
         </header>
 
@@ -21,33 +21,45 @@ export default function Home() {
               Components
             </h2>
             <div className="space-y-3">
-              <a 
-                href="/components/T" 
+              <a
+                href="/demo/components/T"
                 className="block p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200 border-l-4 border-green-500"
               >
                 <h3 className="font-semibold text-gray-900">T Component</h3>
-                <p className="text-gray-600 text-sm">Translation component for internationalization</p>
+                <p className="text-gray-600 text-sm">
+                  Translation component for internationalization
+                </p>
               </a>
-              <a 
-                href="/components/Var" 
+              <a
+                href="/demo/components/Var"
                 className="block p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200 border-l-4 border-green-500"
               >
                 <h3 className="font-semibold text-gray-900">Var Component</h3>
-                <p className="text-gray-600 text-sm">Variable substitution component</p>
+                <p className="text-gray-600 text-sm">
+                  Variable substitution component
+                </p>
               </a>
-              <a 
-                href="/components/Branch" 
+              <a
+                href="/demo/components/Branch"
                 className="block p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200 border-l-4 border-green-500"
               >
-                <h3 className="font-semibold text-gray-900">Branch Component</h3>
-                <p className="text-gray-600 text-sm">Conditional rendering component</p>
+                <h3 className="font-semibold text-gray-900">
+                  Branch Component
+                </h3>
+                <p className="text-gray-600 text-sm">
+                  Conditional rendering component
+                </p>
               </a>
-              <a 
-                href="/components/Static" 
+              <a
+                href="/demo/components/Static"
                 className="block p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200 border-l-4 border-green-500"
               >
-                <h3 className="font-semibold text-gray-900">Static Component</h3>
-                <p className="text-gray-600 text-sm">Static content component</p>
+                <h3 className="font-semibold text-gray-900">
+                  Static Component
+                </h3>
+                <p className="text-gray-600 text-sm">
+                  Static content component
+                </p>
               </a>
             </div>
           </section>
@@ -60,26 +72,34 @@ export default function Home() {
               Functions
             </h2>
             <div className="space-y-3">
-              <a 
-                href="/functions/useGT" 
+              <a
+                href="/demo/functions/useGT"
                 className="block p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200 border-l-4 border-blue-500"
               >
                 <h3 className="font-semibold text-gray-900">useGT Hook</h3>
-                <p className="text-gray-600 text-sm">Translation hook for managing localization</p>
+                <p className="text-gray-600 text-sm">
+                  Translation hook for managing localization
+                </p>
               </a>
-              <a 
-                href="/functions/useMessages" 
+              <a
+                href="/demo/functions/useMessages"
                 className="block p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200 border-l-4 border-blue-500"
               >
-                <h3 className="font-semibold text-gray-900">useMessages Hook</h3>
+                <h3 className="font-semibold text-gray-900">
+                  useMessages Hook
+                </h3>
                 <p className="text-gray-600 text-sm">Message management hook</p>
               </a>
-              <a 
-                href="/functions/declareStatic" 
+              <a
+                href="/demo/functions/declareStatic"
                 className="block p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200 border-l-4 border-blue-500"
               >
-                <h3 className="font-semibold text-gray-900">declareStatic Function</h3>
-                <p className="text-gray-600 text-sm">Static declaration utility function</p>
+                <h3 className="font-semibold text-gray-900">
+                  declareStatic Function
+                </h3>
+                <p className="text-gray-600 text-sm">
+                  Static declaration utility function
+                </p>
               </a>
             </div>
           </section>
