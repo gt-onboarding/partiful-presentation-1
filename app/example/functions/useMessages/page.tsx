@@ -1,33 +1,34 @@
+import { useMessages, msg } from "gt-next";
 
 const messages = [
   {
-    key: 'greeting-1',
-    displayText: 'Hello, world!',
+    key: "greeting-1",
+    displayText: msg("Hello, world!"),
   },
   {
-    key: 'greeting-2',
-    displayText: 'How are you?',
+    key: "greeting-2",
+    displayText: msg("How are you?"),
   },
   {
-    key: 'goodbye-1',
-    displayText: 'Goodbye, world!',
+    key: "goodbye-1",
+    displayText: msg("Goodbye, world!"),
   },
   {
-    key: 'goodbye-2',
-    displayText: 'See you later!',
+    key: "goodbye-2",
+    displayText: msg("See you later!"),
   },
-]
-
+];
 
 export default function Page() {
+  const m = useMessages();
   return (
     <div>
       <h1>The useMessages Hook</h1>
       <ul>
         {messages.map((message) => (
-          <li key={message.key}>{message.displayText}</li>
+          <li key={message.key}>{m(message.displayText)}</li>
         ))}
       </ul>
     </div>
-  )
+  );
 }

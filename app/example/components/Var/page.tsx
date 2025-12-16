@@ -1,17 +1,37 @@
 "use client";
+import { T, Var } from "gt-next";
 import { useState } from "react";
 
 export default function Page() {
-  const [cookies, setCookies] = useState(0);
+  const [name, setName] = useState("John");
   return (
-    <div>
-      <h1>The Var Component</h1>
-      <h2>I have {cookies} cookies</h2>
-      <div className="flex gap-2">
-      <button className="bg-blue-500 text-white px-4 py-2 rounded-md" onClick={() => setCookies(cookies + 1)}>Add a cookie</button>
-      <button className="bg-red-500 text-white px-4 py-2 rounded-md" onClick={() => setCookies(cookies - 1)}>Remove a cookie</button>
-      <button className="bg-gray-500 text-white px-4 py-2 rounded-md" onClick={() => setCookies(0)}>Reset cookies</button>
+    <T>
+      <div>
+        <h1>The Var Component</h1>
+        <h2>
+          My name is <Var>{name}</Var>
+        </h2>
+        <div className="flex gap-2">
+          <button
+            className="bg-blue-500 text-white px-4 py-2 rounded-md"
+            onClick={() => setName("Jane")}
+          >
+            Set name to <Var>Jane</Var>
+          </button>
+          <button
+            className="bg-red-500 text-white px-4 py-2 rounded-md"
+            onClick={() => setName("John")}
+          >
+            Set name to <Var>John</Var>
+          </button>
+          <button
+            className="bg-gray-500 text-white px-4 py-2 rounded-md"
+            onClick={() => setName("Shelly")}
+          >
+            Set name to <Var>Shelly</Var>
+          </button>
+        </div>
       </div>
-    </div>
-  )
+    </T>
+  );
 }

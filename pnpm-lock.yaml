@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       gt-next:
-        specifier: ^6.11.3
-        version: 6.11.3(next@16.0.10(@babel/core@7.28.5)(react-dom@19.2.1(react@19.2.1))(react@19.2.1))(react-dom@19.2.1(react@19.2.1))(react@19.2.1)(vite@7.2.7(@types/node@20.19.27)(jiti@2.6.1)(lightningcss@1.30.2)(yaml@2.8.2))
+        specifier: ^6.12.0
+        version: 6.12.0(next@16.0.10(@babel/core@7.28.5)(react-dom@19.2.1(react@19.2.1))(react@19.2.1))(react-dom@19.2.1(react@19.2.1))(react@19.2.1)(vite@7.2.7(@types/node@20.19.27)(jiti@2.6.1)(lightningcss@1.30.2)(yaml@2.8.2))
       gtx-cli:
-        specifier: ^2.5.33
-        version: 2.5.33(@babel/core@7.28.5)
+        specifier: ^2.5.36
+        version: 2.5.36(@babel/core@7.28.5)
       next:
         specifier: 16.0.10
         version: 16.0.10(@babel/core@7.28.5)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
@@ -366,8 +366,8 @@ packages:
   '@formatjs/intl-localematcher@0.6.2':
     resolution: {integrity: sha512-XOMO2Hupl0wdd172Y06h6kLpBz6Dv+J4okPLl4LPtzbr8f66WbIoy4ev98EBuZ6ZK4h5ydTN6XneT4QVpD7cdA==}
 
-  '@generaltranslation/compiler@1.1.11':
-    resolution: {integrity: sha512-5nfo9W+7FuDBZGNE6jfWUu40krI8BAo00Kn5+eFoFMsEpNdGEXWVCqh77LMaXO/27MCKkqUEzTPxmkjmbojpew==}
+  '@generaltranslation/compiler@1.1.12':
+    resolution: {integrity: sha512-zj3ficgePv1IEf6Aa9fZ1CmUCzZS6Y79m5znzjg+uSoV5JBBj/4Wz/RSKJBmFZ+Lk0EeJp6V1DUTV/kDNNfeJQ==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       vite: '>=3'
@@ -379,13 +379,13 @@ packages:
       react: '>=16.8.0 <20.0.0'
       react-dom: '>=16.8.0 <20.0.0'
 
-  '@generaltranslation/react-core@1.3.2':
-    resolution: {integrity: sha512-fTmZXlXu/YAkIuF/qYb+jW9F7q7nVWRBVScp9dQB33T3vwQbWs8ZiPu2fQFMN3vTHtlReMRF1+uHAIqQe8CvqA==}
+  '@generaltranslation/react-core@1.4.0':
+    resolution: {integrity: sha512-IKjiAhSPjlwiUbUsXq7qnbNL7xQwgzjCbl5JQ49c5T+2OnedEh3Ffn154/cu6CoiPu+oYoEI/xN9Ueei7fXayA==}
     peerDependencies:
       react: '>=16.8.0'
 
-  '@generaltranslation/supported-locales@2.0.33':
-    resolution: {integrity: sha512-9ekJvN6M94nY4yQMV64uZFBZJlq5xtCAi0Bxe1zl8wLvC8OxVGLnzuHql8nvF6VERrAL/UJzEPC8h3SFtSqayA==}
+  '@generaltranslation/supported-locales@2.0.34':
+    resolution: {integrity: sha512-IqsQeeg9HZBU57fJvqEJz2ayTSsyIP2ApnBhO17cImZWEEfei6BL5dd4wuwgGRDEY2j4j9QQROeCueEntpIpnQ==}
 
   '@humanfs/core@0.19.1':
     resolution: {integrity: sha512-5DyQ4+1JEUzejeK1JGICcideyfUbGixgS9jNgex5nqkW+cY7WZhxBigmieN5Qnw9ZosSNVC9KQKyb+GUaGyKUA==}
@@ -1571,8 +1571,8 @@ packages:
   functions-have-names@1.2.3:
     resolution: {integrity: sha512-xckBUXyTIqT97tq2x2AMb+g163b5JFysYk0x4qxNFwbfQkmNZoiRHb6sPzI9/QV33WeuvVYBUIiD4NzNIyqaRQ==}
 
-  generaltranslation@8.1.3:
-    resolution: {integrity: sha512-fBe9UPd923C3WJ45ecwvZzYUikQjGxytd2SI09LhnTpujEuCsXUTDuYXcC5Wuw5eM6UVnkMe9nijnEA1MXvI6g==}
+  generaltranslation@8.1.4:
+    resolution: {integrity: sha512-jTpKaMAmRNFfDXItupfxtQvbtvdH3eG91Ve4ehWtGb9Ptbs/B1i1MombITDjZ3+9V5vmJvz8TYiofSViYtbwpA==}
 
   generator-function@2.0.1:
     resolution: {integrity: sha512-SFdFmIJi+ybC0vjlHN0ZGVGHc3lgE0DxPAT0djjVg+kjOnSqclqmj0KQ7ykTOLP6YxoqOvuAODGdcHJn+43q3g==}
@@ -1624,18 +1624,18 @@ packages:
   graceful-fs@4.2.11:
     resolution: {integrity: sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==}
 
-  gt-i18n@0.2.2:
-    resolution: {integrity: sha512-DPiFiess745JO4+aE9JPCaPlQ+00/dIv2IDEvG31L6fMQo88I/hb+mw6bzbdbwNwy3Ph60r4tymOo1TrmWw8QQ==}
+  gt-i18n@0.3.0:
+    resolution: {integrity: sha512-1GC3bYDQYrZkKzZFyaiQ+E0lLaYvmHB4Bkg7wH0qEzftqQ0ONTJGjNNF+UL2yCcUxRRsZ1t1sVABSxOJPcSCIg==}
 
-  gt-next@6.11.3:
-    resolution: {integrity: sha512-pdKx//nKf4NaUSg7AMHzuDaRbalnEGZIgqV0DpdQnOsUMAYefTIS8e7+yGt41GuXWCJGY/Y8sUwwdomhTWToAQ==}
+  gt-next@6.12.0:
+    resolution: {integrity: sha512-hGIszSBdnF9JVdHbXdhM3r3PDoRacbizF/fhV5X2QBlkXUOuFXZuEmK/hqDqy2P0ii3BBhnc9mtROKSCGUTzaA==}
     peerDependencies:
       next: '>=13.0.0 <15.2.1 || >15.2.2'
       react: '>=16.8.0 <20.0.0'
       react-dom: '>=16.8.0 <20.0.0'
 
-  gt-react@10.9.3:
-    resolution: {integrity: sha512-E7SMMH8vUEglFfi5Hon6FGUoH/iHeumUpxmCW/XjBmtuY1p+2CSiESLsLNRikfamTPRTsWCSADUou38R2YqhbA==}
+  gt-react@10.10.0:
+    resolution: {integrity: sha512-GGtTm40wMpEqKRFdiWv8dIzKka1e5w7JJ8R+IaFHl61k1hqd+IOmFc+dsAGXiXhshEwTVwrCEYj/5lrMTzAdqg==}
     peerDependencies:
       react: '>=16.8.0'
       react-dom: '>=16.8.0'
@@ -1643,8 +1643,8 @@ packages:
   gt-remark@1.0.2:
     resolution: {integrity: sha512-c8tUbclzWVlZf4ridPmNoZmwEdyoOonONc9Dtx1+nYIt2C+Lfvm3Q0OlCwZ2e+SHtQTHIvBdjh0U1mv9yNoHZQ==}
 
-  gtx-cli@2.5.33:
-    resolution: {integrity: sha512-UxEVJJxePQca+oxrMar/SpTukxOCO9y/fWLtri0Btye/lQ/sGQKEIFpVlF1w7OqoFJMggIw+RdBNzy3uWKfkTQ==}
+  gtx-cli@2.5.36:
+    resolution: {integrity: sha512-zAru4uZR5I6uaaiTCcTap+H2ffo27doEGIMnbfCD81N8h7hIc4CZO6+XxT9BQ8SGExqNfyE4obQV05W/JAKjcg==}
     hasBin: true
 
   has-bigints@1.1.0:
@@ -3040,13 +3040,13 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  '@generaltranslation/compiler@1.1.11(vite@7.2.7(@types/node@20.19.27)(jiti@2.6.1)(lightningcss@1.30.2)(yaml@2.8.2))':
+  '@generaltranslation/compiler@1.1.12(vite@7.2.7(@types/node@20.19.27)(jiti@2.6.1)(lightningcss@1.30.2)(yaml@2.8.2))':
     dependencies:
       '@babel/generator': 7.28.5
       '@babel/parser': 7.28.5
       '@babel/traverse': 7.28.5
       '@babel/types': 7.28.5
-      generaltranslation: 8.1.3
+      generaltranslation: 8.1.4
       unplugin: 2.3.11
       vite: 7.2.7(@types/node@20.19.27)(jiti@2.6.1)(lightningcss@1.30.2)(yaml@2.8.2)
     transitivePeerDependencies:
@@ -3058,16 +3058,16 @@ snapshots:
       react: 19.2.1
       react-dom: 19.2.1(react@19.2.1)
 
-  '@generaltranslation/react-core@1.3.2(react@19.2.1)':
+  '@generaltranslation/react-core@1.4.0(react@19.2.1)':
     dependencies:
-      '@generaltranslation/supported-locales': 2.0.33
-      generaltranslation: 8.1.3
-      gt-i18n: 0.2.2
+      '@generaltranslation/supported-locales': 2.0.34
+      generaltranslation: 8.1.4
+      gt-i18n: 0.3.0
       react: 19.2.1
 
-  '@generaltranslation/supported-locales@2.0.33':
+  '@generaltranslation/supported-locales@2.0.34':
     dependencies:
-      generaltranslation: 8.1.3
+      generaltranslation: 8.1.4
 
   '@humanfs/core@0.19.1': {}
 
@@ -4300,8 +4300,9 @@ snapshots:
 
   functions-have-names@1.2.3: {}
 
-  generaltranslation@8.1.3:
+  generaltranslation@8.1.4:
     dependencies:
+      '@formatjs/icu-messageformat-parser': 2.11.4
       crypto-js: 4.2.0
       fast-json-stable-stringify: 2.1.0
       intl-messageformat: 10.7.18
@@ -4359,18 +4360,18 @@ snapshots:
 
   graceful-fs@4.2.11: {}
 
-  gt-i18n@0.2.2:
+  gt-i18n@0.3.0:
     dependencies:
-      '@generaltranslation/supported-locales': 2.0.33
-      generaltranslation: 8.1.3
+      '@generaltranslation/supported-locales': 2.0.34
+      generaltranslation: 8.1.4
 
-  gt-next@6.11.3(next@16.0.10(@babel/core@7.28.5)(react-dom@19.2.1(react@19.2.1))(react@19.2.1))(react-dom@19.2.1(react@19.2.1))(react@19.2.1)(vite@7.2.7(@types/node@20.19.27)(jiti@2.6.1)(lightningcss@1.30.2)(yaml@2.8.2)):
+  gt-next@6.12.0(next@16.0.10(@babel/core@7.28.5)(react-dom@19.2.1(react@19.2.1))(react@19.2.1))(react-dom@19.2.1(react@19.2.1))(react@19.2.1)(vite@7.2.7(@types/node@20.19.27)(jiti@2.6.1)(lightningcss@1.30.2)(yaml@2.8.2)):
     dependencies:
-      '@generaltranslation/compiler': 1.1.11(vite@7.2.7(@types/node@20.19.27)(jiti@2.6.1)(lightningcss@1.30.2)(yaml@2.8.2))
+      '@generaltranslation/compiler': 1.1.12(vite@7.2.7(@types/node@20.19.27)(jiti@2.6.1)(lightningcss@1.30.2)(yaml@2.8.2))
       '@generaltranslation/next-internal': 0.1.0(next@16.0.10(@babel/core@7.28.5)(react-dom@19.2.1(react@19.2.1))(react@19.2.1))(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
-      '@generaltranslation/supported-locales': 2.0.33
-      generaltranslation: 8.1.3
-      gt-react: 10.9.3(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
+      '@generaltranslation/supported-locales': 2.0.34
+      generaltranslation: 8.1.4
+      gt-react: 10.10.0(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
       next: 16.0.10(@babel/core@7.28.5)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
       react: 19.2.1
       react-dom: 19.2.1(react@19.2.1)
@@ -4378,11 +4379,11 @@ snapshots:
       - supports-color
       - vite
 
-  gt-react@10.9.3(react-dom@19.2.1(react@19.2.1))(react@19.2.1):
+  gt-react@10.10.0(react-dom@19.2.1(react@19.2.1))(react@19.2.1):
     dependencies:
-      '@generaltranslation/react-core': 1.3.2(react@19.2.1)
-      '@generaltranslation/supported-locales': 2.0.33
-      generaltranslation: 8.1.3
+      '@generaltranslation/react-core': 1.4.0(react@19.2.1)
+      '@generaltranslation/supported-locales': 2.0.34
+      generaltranslation: 8.1.4
       react: 19.2.1
       react-dom: 19.2.1(react@19.2.1)
 
@@ -4390,7 +4391,7 @@ snapshots:
     dependencies:
       mdast-util-find-and-replace: 3.0.2
 
-  gtx-cli@2.5.33(@babel/core@7.28.5):
+  gtx-cli@2.5.36(@babel/core@7.28.5):
     dependencies:
       '@babel/generator': 7.28.5
       '@babel/parser': 7.28.5
@@ -4405,7 +4406,7 @@ snapshots:
       esbuild: 0.25.12
       fast-glob: 3.3.3
       fast-json-stable-stringify: 2.1.0
-      generaltranslation: 8.1.3
+      generaltranslation: 8.1.4
       gt-remark: 1.0.2
       html-entities: 2.6.0
       json-pointer: 0.6.2

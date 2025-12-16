@@ -54,7 +54,7 @@ export function Footer() {
             className="px-6 py-2 rounded-md font-medium transition-colors disabled:bg-gray-300 disabled:text-gray-500 disabled:cursor-not-allowed bg-blue-500 hover:bg-blue-600 text-white"
             onClick={() => {
               const prevPath = tutorialList[currentTutorial - 1];
-              window.location.href = `${pageType}${prevPath}`;
+              window.location.href = `/${pageType}${prevPath}`;
             }}
             disabled={currentTutorial === 0}
           >
@@ -96,7 +96,7 @@ export function Footer() {
             className="px-6 py-2 rounded-md font-medium transition-colors disabled:bg-gray-300 disabled:text-gray-500 disabled:cursor-not-allowed bg-blue-500 hover:bg-blue-600 text-white"
             onClick={() => {
               const nextPath = tutorialList[currentTutorial + 1];
-              window.location.href = `${pageType}${nextPath}`;
+              window.location.href = `/${pageType}${nextPath}`;
             }}
             disabled={currentTutorial === tutorialList.length - 1}
           >
