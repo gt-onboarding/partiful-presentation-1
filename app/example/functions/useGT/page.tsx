@@ -2,7 +2,8 @@ import { useGT } from "gt-next";
 
 export default function Page() {
   const gt = useGT();
-  const subtitle = gt("This hook is used to translate strings.");
+  const subtitle = gt("Translate this string");
+
   return (
     <div>
       <h1>The useGT Hook</h1>
